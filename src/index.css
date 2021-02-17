@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Potta One', cursive;
+  letter-spacing: 2px;
+}
+
+/* body {
+  background: radial-gradient(#f6c 15%, rgba(0, 0, 0, 0) 16%), radial-gradient(#6cf 15%, rgba(0, 0, 0, 0) 16%), rgb(141, 141, 139);
+  background-position: 0 0, 30px 30px;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: 60px 60px;
+} */
+@import url('https://fonts.googleapis.com/css?family=Ruda:900');
+
+body {
+  background-image: url(//www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+  background-position: bottom;
+  animation: 4s linear 0s infinite bp;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes bp {
+  from {
+    background-position: 300px 0;
+  }
+
+  to {
+    background-position: 0 198px;
+  }
+}
+
+#navbar-link {
+  text-decoration: none;
+  color: #FFD466;
+  font-size: 34px;
+  padding: 0;
+  margin: 0;
+}
+
+#back {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  box-shadow: none;
+  background: grey;
+  margin-left: 1200px;
+  margin-top: 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin: 20px 60px;
+  padding: 30px;
+  /* border: 2px #000 solid; */
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h4 {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+.space {
+  height: 200px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: coral;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+#button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items {
+  margin-left: 30px;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+}
+
+.container-type {
+  display: flex;
+  margin: 20px 120px 0px 120px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.types {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+  font-size: 34px;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.types:hover {
+  position: relative;
+  opacity: 1;
+  width: 210px;
+  height: 210px;
+  margin-top: 70px;
+  transform: translate(0%, -10%);
+  box-shadow: 5px 8px 10px 0px rgba(0, 0, 0, 0.4);
+
+}
+
+.Grass {
+  background-color: #11D8B3;
+}
+
+.Electric {
+  background-color: #FFD466;
+}
+
+.Water {
+  background-color: #3D7DD8;
+}
+
+.Fire {
+  background-color: #eb5b2f;
+}
+
+.Rock {
+  background-color: rgb(182, 162, 139);
+}
+
+.Ghost {
+  background-color: rgb(128, 63, 128);
+}
+
+.Psychic {
+  background-color: plum;
+}
+
+.Ground {
+  background-color: rgb(216, 156, 79);
+}
+
+.Poison {
+  background-color: rgb(180, 0, 150);
+}
+
+.Flying {
+  background-color: rgb(233, 212, 174);
+}
+
+.Ice {
+  background-color: rgb(144, 217, 247);
+}
+
+.Bug {
+  background-color: rgb(94, 158, 52);
+}
+
+.Normal {
+  background-color: rgb(143, 120, 90);
+  margin-bottom: 60px;
+}
+
+.Fighting {
+  background-color: #ed4545;
+  margin-bottom: 60px;
+}
+
+.Dragon {
+  background-color: gold;
+  margin-bottom: 60px;
+}
+
+.link-text {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  position: relative;
+  cursor: pointer;
+  height: 46px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 3px 0px 0px rgb(255, 99, 42);
+  -moz-box-shadow: 0px 3px 0px 0px rgb(255, 99, 42);
+  box-shadow: 0px 3px 0px 0px rgb(255, 99, 42);
+  transition: all 0.4 ease;
+}
+
+button:active {
+  top: 4px;
+  box-shadow: none;
+}
+
+#btn-link {
+  margin-top: 16px;
+  margin-left: 8px;
+  display: flex;
+  color: #ffffff;
+  text-decoration: none;
+  height: 46px;
+  width: 60px;
+  display: flex;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: #ffffff;
+  margin-left: 180px;
+  margin-right: 180px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.data {
+  /* border: 1px #000 solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.data div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.data div span {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.data div span h2 {
+  margin-left: 20px;
+}
+
+#Grass {
+  color: #11D8B3;
+}
+
+#Electric {
+  color: #FFD466;
+}
+
+#Water {
+  color: #3D7DD8;
+}
+
+#Fire {
+  color: #eb5b2f;
+}
+
+#Rock {
+  color: rgb(182, 162, 139);
+}
+
+#Ghost {
+  color: rgb(128, 63, 128);
+}
+
+#Psychic {
+  color: plum;
+}
+
+#Ground {
+  color: rgb(216, 156, 79);
+}
+
+#Poison {
+  color: rgb(180, 0, 150);
+}
+
+#Flying {
+  color: rgb(233, 212, 174);
+}
+
+#Ice {
+  color: rgb(144, 217, 247);
+}
+
+#Bug {
+  color: rgb(94, 158, 52);
+}
+
+#Normal {
+  color: rgb(143, 120, 90);
+}
+
+#Fighting {
+  color: #ed4545;
+}
+
+#Dragon {
+  color: gold;
+}
+
+#Fairy {
+  color: pink;
+}
+
+#Dark {
+  color: rgb(26, 26, 87);
+}
+
+#Steel {
+  color: rgb(184, 184, 184);
+}
